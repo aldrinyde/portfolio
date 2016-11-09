@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GO */
+
+body
+{
+  font-family: arial;
+}
+
+/* HEADER */
+
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: rgba(223, 241, 247, 0.9);
+}
+
+.menu
+{
+    font-family: arial;
+    font-weight: bold;
+}
+
+#profil{
+  border-radius: 100%;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+#contactlink
+{
+}
+
+#worklink
+{
+	transition: 0.5s ease;
+}
+
+#worklink:hover{
+	border-bottom: 1px solid grey;
+}
+/* GENERAL INTRODUCTION */
+
+a
+{
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  align-items: center;
+  font-size: 180%;
+}
+
+#introduction
+{
+    background-image: url("1.jpg");
+    padding-right: 2.5%;
+
+}
+
+#title1
+{
+    color: white;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 120%;
+}
+
+#text1
+{
+    color: #C7D4D9;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 12%;
+
+}
+
+/* MY WORK */
+
+#text2
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#aldrine
+{
+  width: 50%;
+  height: 30%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 5%;
+}
+
+#aldrine_link
+{
+  box-shadow: 0 0 5px #000;
+}
+
+#aldrine_link:hover
+{
+  border: 1px #000 solid
+}
+
+/* CONTACT */
+
+#contact
+{
+  background-image: url("3.jpeg");
+  color: #DFF1F7;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#text3
+{
+  font-weight: bold;
+  color: white;
+}
+
+#text4
+{
+  padding-top: 20%;
+}
+
+#logo
+{
+  border-width: 2px;
+  border-color: white;
+}
+
+#logo1, #logo2
+{
+  padding-top: 25%;
+  padding-left: 15%;
+}
+
+/* FORM */
+
+#form
+{
+  background-color: white;
+  color: black;
+  border-radius: 3%;
+}
+
+#form *
+{
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+}
+
+/* FOOTER */
+
+footer
+{
+  background-color: #DFF1F7;
+  text-align: center;
+  padding: 1%;
+  font-size: 60%;
+}

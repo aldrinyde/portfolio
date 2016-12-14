@@ -73,6 +73,8 @@ header
   width: 100%;
   z-index: 10000;
   overflow: hidden;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -81,48 +83,54 @@ header
 	font-family: "rubik";
 }
 
-#profil
+#home
 {
-  border-radius: 100%;
-  width: 3.5em;
-  height: 3.5em;
 	margin-left: 2em;
 	margin-right: 1.5em;
 }
 
-.link
+.ancre
 {
 	transition: all 0.3s ease-in-out;
 }
 
-.link:hover
+.ancre:hover
 {
-	box-shadow: 0 3px 0 0 grey;
+	box-shadow: 0 2px 0 0 grey;
 }
 
 /* GENERAL INTRODUCTION */
+
+#introduction
+{
+    background-image: url("1.jpg");
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+}
+
+
+#profil
+{
+  border-radius: 100%;
+  width: 7em;
+  height: 7em;
+}
 
 a
 {
   text-decoration: none;
   color: grey;
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
   font-size: 180%;
-}
-
-#introduction
-{
-    background-image: url("1.jpg");
-    padding-right: 2.5%;
-
 }
 
 #title1
 {
     color: white;
     padding-top: 15%;
-    text-align: center;
+		text-align: center;
     font-size: 160%;
 }
 
@@ -130,16 +138,10 @@ a
 {
     color: #C7D4D9;
     font-size: 100%;
-    text-align: center;
-    padding-top: 7%;
-    padding-bottom: 12%;
-		font-family:
+		text-align: center;
 }
 
 /* MY WORK */
-#work{
-	padding-bottom: 5%;
-}
 
 #title2
 {

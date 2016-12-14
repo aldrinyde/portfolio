@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('a').on('click', function(evt){
+  $('.ancre').on('click', function(evt){
     evt.preventDefault();
 
     var target = $(this).attr('href');
